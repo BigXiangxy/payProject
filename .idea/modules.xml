@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pay/paylib.iml" filepath="$PROJECT_DIR$/pay/paylib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pay/pay.iml" filepath="$PROJECT_DIR$/pay/pay.iml" />
       <module fileurl="file://$PROJECT_DIR$/payProject.iml" filepath="$PROJECT_DIR$/payProject.iml" />
+      <module fileurl="file://F:\Work\QYQWrok\payProject\pay\paylib.iml" filepath="F:\Work\QYQWrok\payProject\pay\paylib.iml" />
     </modules>
   </component>
 </project>

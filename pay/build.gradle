@@ -2,8 +2,6 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion '26.0.0'
-
 
     defaultConfig {
         minSdkVersion 15
@@ -33,8 +31,9 @@ dependencies {
     })
     compile files('libs/alipaySdk-20170922.jar')
     compile files('libs/libammsdk.jar')
-    provided 'org.weex.plugin:processor:1.0.2'
+    //provided 'org.weex.plugin:processor:1.0.2'
     compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.github.BigXiangxy:QYQBase:1.1'
 //    if (project.usingWeex == "0.18.0") {
 //        compile project(':weex_sdk')
 //    } else if (project.usingWeex == "0.16.0") {
