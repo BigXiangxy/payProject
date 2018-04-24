@@ -30,12 +30,6 @@
         </activity>
         <!-- alipay sdk end -->
 
-        <!--wxpay start-->
-        <activity
-            android:name="com.qiyico.qyq.app.wxapi.WXPayEntryActivity"
-            android:exported="true"
-            android:launchMode="singleTop"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <!--wxpay end-->
+
     </application>
 </manifest>
