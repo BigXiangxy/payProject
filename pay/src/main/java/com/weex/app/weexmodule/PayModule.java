@@ -84,7 +84,7 @@ public final class PayModule extends WXModule {
             jsCallback.invokeAndKeepAlive(new BaseCallBackBean<PayResult>().setCode(-200).setMessage("AliPay ::: getInstall - Context is null!!!"));
             return;
         }
-        EnvUtils.setEnv(EnvUtils.EnvEnum.SANDBOX);
+//        EnvUtils.setEnv(EnvUtils.EnvEnum.SANDBOX);
         Activity activity = null;
         try {
             activity = (Activity) context;
