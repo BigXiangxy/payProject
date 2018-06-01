@@ -35,7 +35,7 @@ dependencies {
     compile files('libs/libammsdk.jar')
     provided 'org.weex.plugin:processor:1.0.2'
     compile 'com.google.code.gson:gson:2.8.0'
-    compile 'com.github.BigXiangxy:QYQBase:1.6'
+    compile 'com.github.BigXiangxy:QYQBase:1.7'
 //    if (project.usingWeex == "0.18.0") {
 //        compile project(':weex_sdk')
 //    } else if (project.usingWeex == "0.16.0") {
